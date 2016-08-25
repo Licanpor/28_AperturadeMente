@@ -1,3 +1,6 @@
+a{
+	text-decoration: none;
+}
 #fr{
 	font-family: 'Baloo Paaji', cursive;
 	font-size: 5em;
@@ -7,6 +10,10 @@
 	color:yellow;
 	padding: 5%;
 }
-.img-p{
-	border-radius: 2%;
+.icon{
+	padding-left: 35%;
 }
+.icon img{
+	padding: 3%;
+}
+
