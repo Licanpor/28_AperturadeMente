@@ -1,19 +1,73 @@
 a{
-	text-decoration: none;
+	text-decoration: none !important;
+}
+.container-fluid, .pd0{
+	margin: 0 !important;
+}
+.pdt{
+	padding:10% 0%;
+}
+.pdi{
+	padding: 3% 0%;
+}
+#img1{
+	background-image: url("../img/JyL.jpg");
+}
+#img2{
+	background-image: url("../img/M.jpg");
+}
+#img3{
+	background-image: url("../img/L.jpg");
+}
+#img4{
+	background-image: url("../img/FyF.jpg");
+}
+#info{
+	background-color: rgba(150,206,180,0.9);
+	opacity:0;
+	-webkit-transition:opacity:0.2s;
+	padding: 5%;
+}
+#img1:hover #info, #img2:hover #info, #img3:hover #info, #img4:hover #info{
+	opacity:0.7;
+}
+#img1, #img2, #img3, #img4, #info{
+	height: 10em;
+	background-size: cover;
+}
+.txt{
+	color:	#ff6f69;
+}
+button>a, button>span{
+	color:white;
+}
+.bg{
+	background-color: black;
+	color: white;
+}
+.ff, #fr{
+	font-family: 'Baloo Paaji', cursive;
 }
 #fr{
-	font-family: 'Baloo Paaji', cursive;
+	
 	font-size: 5em;
 }
 .bg-g{
-	background-color: #D8D8D8;
-	color:yellow;
+	background-color:#ffeead;
 	padding: 5%;
 }
 .icon{
 	padding-left: 35%;
 }
-.icon img{
+.icon img, .btn-p{
 	padding: 3%;
 }
-
+button{
+	background-color: #96ceb4;
+}
+@media screen and (max-width: 768px){
+	.icon{
+		padding-left: 0;
+	}
+	
+}
